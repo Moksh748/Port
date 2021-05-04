@@ -1,0 +1,81 @@
+body{
+ text-align: center;
+ padding-top: 200px;    
+}
+img{
+    width: 175px;
+    margin-bottom: 50px
+    border-radius:50%;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top:0;
+    bottom:0;
+    right:0;
+    background: linear-gradient(#4fa7ff 50%, #15ff00 50%);
+    z-index: 5;
+    display: table;
+    width: 100%;
+    height: 40%;
+}
+h1 { 
+    font-size: 40px; 
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 300; 
+} 
+#name { 
+    font-size: 30px;
+    line-height: 1.2;
+    font-family:'Spirax';
+}
+h2 { font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+#bio {
+    padding: 250px;
+    text-align: center;
+    font-size: 42px;
+} 
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.Menu{
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.items{
+    text-align: center;
+    float: left; 
+    padding: 30px;
+    color:forestgreen;
+    font-size: 26px;
+}
+.items:hover{
+    background-color: #4fa7ff;
+}
